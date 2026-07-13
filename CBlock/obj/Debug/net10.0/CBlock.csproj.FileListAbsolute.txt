@@ -1,0 +1,15 @@
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/bin/Debug/net10.0/CBlock
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/bin/Debug/net10.0/CBlock.deps.json
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/bin/Debug/net10.0/CBlock.runtimeconfig.json
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/bin/Debug/net10.0/CBlock.dll
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/bin/Debug/net10.0/CBlock.pdb
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.AssemblyInfoInputs.cache
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.AssemblyInfo.cs
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.csproj.CoreCompileInputs.cache
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.sourcelink.json
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.dll
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/refint/CBlock.dll
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.pdb
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/CBlock.genruntimeconfig.cache
+/Users/mac/RiderProjects/blockchain-for-all/CBlock/obj/Debug/net10.0/ref/CBlock.dll
