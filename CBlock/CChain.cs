@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace ConsoleApp1;
 
@@ -29,9 +31,41 @@ public class CChain
   }
 
 
+  public int mine(int nonce)
+  {
+    int solution = 1;
+    Console.WriteLine("⛏️  mining...");
+
+    while (true)
+    {
+      try
+      {
+        SHA256 digest = SHA256.Create();
+        String data = nonce + solution + "";
+        byte[] dataBytes = Encoding.UTF8.GetBytes(data);
+        byte[] hashBytes = digest.ComputeHash(dataBytes);
+
+        if (hashBytes.ToString().StartsWith("00000"))
+        {
+          Console.WriteLine("solved:" + solution.ToString());
+          return solution;
+
+        }
+
+        solution++;
+      }catch(Exception e)
+      {
+        Console.WriteLine(e.Message);
+      }
+    }
+
+  }
+
   public void addBlock(CTransaction transaction,PublicKey senderPublicKey,byte[] signature)
   {
     CBlock newBlock = new CBlock(getLastBlock().getHash(),transaction);
+    mine(newBlock.nonce);
+    chain.Add(newBlock);
   }
 
   public bool verifyTransaction(CTransaction transaction)
